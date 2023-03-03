@@ -20,13 +20,6 @@
             </template>
             <el-menu-item index="1-1">功能A1</el-menu-item>
             <el-menu-item index="1-2">功能A2</el-menu-item>
-            <!-- <el-menu-item-group title="Group One">
-                <el-menu-item index="1-1">item one</el-menu-item>
-                <el-menu-item index="1-2">item two</el-menu-item>
-              </el-menu-item-group>
-              <el-menu-item-group title="Group Two">
-                <el-menu-item index="1-3">item three</el-menu-item>
-              </el-menu-item-group> -->
           </el-sub-menu>
           <el-sub-menu index="2">
             <template #title>
@@ -36,11 +29,6 @@
             <el-menu-item index="2-1">功能B1</el-menu-item>
             <el-menu-item index="2-2">功能B2</el-menu-item>
           </el-sub-menu>
-
-          <!-- <el-menu-item index="3" disabled>
-              <el-icon><document /></el-icon>
-              <span>功能A</span>
-            </el-menu-item> -->
           <el-menu-item index="3">
             <el-icon><setting /></el-icon>
             <span>功能A</span>
